@@ -217,3 +217,7 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+.scroll__bar-carCard::-webkit-scrollbar {
+  width: 0; /* Width of the entire scrollbar */
+}

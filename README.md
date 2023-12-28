@@ -1,3 +1,61 @@
+# Car Search Web App
+
+## Overview
+
+The Car Search Web App (CarHub) is a dynamic and user-friendly application that simplifies the process of finding detailed information about cars, including their model, year of manufacture, fuel type, and daily rental prices. This app caters to users who are looking for specific details about cars for potential rental.
+
+## Features
+
+### 1. **Search Functionality**
+
+- Users can search for cars by specifying the model, year of manufacture, and fuel type.
+- The search functionality provides accurate and relevant results based on the user's input.
+
+### 2. **Detailed Car Information**
+
+- The app displays comprehensive details about each car, offering insights into the model, manufacturing year, fuel type, and other relevant specifications.
+
+### 3. **Responsive Design**
+
+- The web app is designed to be responsive, ensuring an optimal viewing experience across a variety of devices, including desktops, tablets, and mobile phones.
+
+### 4. **Intuitive Layout**
+
+- The user interface features a clean and intuitive layout, enhancing the overall user experience.
+- Intelligently organized information allows users to quickly access the details they need.
+
+### 5. **Dynamic Pricing Information**
+
+- The app showcases the rental price for each car per day.
+
+## How to Use
+
+1. **Search for a Car:**
+
+   - Navigate to the search section.
+   - Specify the car model, year of manufacture, and fuel type.
+
+2. **View Car Details:**
+
+   - Click on a search result to view detailed information about a specific car.
+
+3. **Check Rental Price:**
+
+   - Find the daily rental price for each car.
+
+4. **Responsive Experience:**
+   - Access the web app from various devices to enjoy a seamless and responsive design.
+
+## Special Thanks
+
+Thanks to JavaScript Mastery for guilding me through building the CarHub Web App and IMAGIN.studio for providing the cool Car pictures!
+
+## Conclusion
+
+The CarHub is a valuable tool for individuals seeking detailed information about cars for potential rental. Its user-friendly interface, dynamic features, and responsive design make it a standout solution for car enthusiasts and renters alike.
+
+Feel free to explore the app and discover the perfect car for your needs!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
