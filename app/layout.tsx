@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#0000ffc9" />
+        <meta name="theme-color" content="#0000ff85" />
         <link rel="icon" href="/logo.svg" />
       </head>
       <body className="relative">
