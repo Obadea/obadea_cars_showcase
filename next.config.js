@@ -6,6 +6,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  compilerOptions: {
+    jsx: "react",
+    esModuleInterop: true,
+    // Other compiler options...
+  },
 };
 
 module.exports = nextConfig;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer, Navbar } from "@/components";
+import { Helmet } from 'react-helmet';
 
 export const metadata: Metadata = {
   title: "Car Hub",
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#0000ffc9">
+          <Helmet>
+          <meta name="theme-color" content="#0000ffc9">
+          </Helmet>
         <link rel="icon" href="/logo.svg" />
       </head>
       <body className="relative">
