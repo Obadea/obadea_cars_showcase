@@ -1,13 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["cdn.imagin.studio"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.imagin.studio',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
   typescript: {
     ignoreBuildErrors: true,
   },
   compilerOptions: {
-    jsx: "react",
+    jsx: 'react',
     esModuleInterop: true,
     // Other compiler options...
   },
